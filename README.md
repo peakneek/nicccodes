@@ -123,11 +123,12 @@ export const heroData = {
 
 ```javascript
 export const aboutData = {
-  img: 'profile.jpg', // put your profile image (recommended aspect radio: square)
+  img: 'profile.jpg',
+  img1: 'Bath.jpg', 
   paragraphOne: '',
   paragraphTwo: '',
   paragraphThree: '',
-  resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
+  resume: '', // if no resume, the button will not show up
 };
 ```
 
@@ -155,7 +156,7 @@ export const projectsData = [
     info: '',
     info2: '',
     url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    repo: '', // if no repo, the button will not show up
   },
   ...
 ];
@@ -165,7 +166,7 @@ export const projectsData = [
 
 ```javascript
 export const contactData = {
-  cta: '', // call to action text for the contact section
+  cta: 'Follow my Social Media Accounts below!', // call to action text for the contact section
   btn: '', // text inside the button
   email: '',
 };
