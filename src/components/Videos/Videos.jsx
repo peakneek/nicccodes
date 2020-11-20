@@ -32,7 +32,7 @@ const Videos = () => {
               <Title title="videos" />
             </Fade>
               <Row>
-                <Col lg={4} sm={6}>
+                <Col>
                   <Fade
                     left={isDesktop}
                     bottom={isMobile}
@@ -41,61 +41,55 @@ const Videos = () => {
                     distance="30px"
                   >
                     <div>
-                      <h3 class="video-wrapper__text-title">Sicily</h3>
-                      <div class="video-wrapper">
+                      <h3 class="video-wrapper__info-text--important">Sicily</h3>
+                  
+                     
+                    </div>
+                  </Fade>
+                  </Col>
+                  </Row>
+                <Row>
+                <Col>
+                  <Fade
+                    right={isDesktop}
+                    bottom={isMobile}
+                    duration={1000}
+                    delay={1000}
+                    distance="30px"
+                  >
+                    <div class="video-wrapper__image">
+                    <p>
+                      <Youtube
+                      videoSrcURL="https://www.youtube.com/embed/ZIrk8L2jOaU"
+                      videoTitle="Official Music Video on YouTube"
+                    />
+                    </p>
+                    </div>
+                    
+                      
+                    
+                  </Fade>
+                  </Col>
+                  </Row>
+                  <Row>
+                  <Fade
+                    right={isDesktop}
+                    bottom={isMobile}
+                    duration={1000}
+                    delay={1000}
+                    distance="30px"
+                  >
+                  <div class="video-wrapper">
                         <p>
                             Year 13 trip with Institut International de Lancy. Most cherished vacation with friends and I hope this video reflects that.
                         </p>
                         
                       </div>
-                  
-                     
-                    </div>
-                  </Fade>
-                </Col>
-                <Col lg={8} sm={18}>
-                  <Fade
-                    right={isDesktop}
-                    bottom={isMobile}
-                    duration={1000}
-                    delay={1000}
-                    distance="30px"
-                  >
-                    <div className="video-wrapper__image">
-                    <Youtube
-                      videoSrcURL="https://www.youtube.com/embed/ZIrk8L2jOaU"
-                      videoTitle="Official Music Video on YouTube"
-                    />
-                        
-                    
-                       
-                      
-                    </div>
-                  </Fade>
-                </Col>
-              </Row>
-              <Row>
-              <Col lg={8} sm={18}>
-                  <Fade
-                    right={isDesktop}
-                    bottom={isMobile}
-                    duration={1000}
-                    delay={1000}
-                    distance="30px"
-                  >
-                    <div className="video-wrapper__image">
-                    <Youtube
-                      videoSrcURL="https://www.youtube.com/embed/kQjfrPqIqY0"
-                      videoTitle="Official Music Video on YouTube"
-                    />
-                        
-                        
-                       
-                      
-                    </div>
-                  </Fade>
-                </Col>
-                <Col lg={4} sm={6}>
+                      </Fade>
+                  </Row>
+      
+                  <Row>
+                  <Col>
                   <Fade
                     left={isDesktop}
                     bottom={isMobile}
@@ -104,21 +98,256 @@ const Videos = () => {
                     distance="30px"
                   >
                     <div>
-                      <h3 class="video-wrapper__text-title">New York</h3>
-                      <div class="video-wrapper">
+                      <h3 class="video-wrapper__info-text--important">New York</h3>
+                      
+                     
+                    </div>
+                  </Fade>
+               
+                  </Col>
+              </Row>
+            
+              <Row>
+              <Col>
+                  <Fade
+                    right={isDesktop}
+                    bottom={isMobile}
+                    duration={1000}
+                    delay={1000}
+                    distance="30px"
+                  >
+                    <div class="video-wrapper__image">
+                    <Youtube
+                      videoSrcURL="https://www.youtube.com/embed/kQjfrPqIqY0"
+                      videoTitle="Official Music Video on YouTube"
+                    />
+                       
+                       
+                      
+                    </div>
+                     
+                  
+                  
+                  </Fade>
+                  </Col>
+                </Row>
+            <Row>
+            <Col>
+                <Fade
+                    right={isDesktop}
+                    bottom={isMobile}
+                    duration={1000}
+                    delay={1000}
+                    distance="30px"
+                  >
+                <div class="video-wrapper">
                         <p>
-                            Summer of 2019. Trip with the fam
+                            Family holiday in New York after graduating IB, and my older brother James graduating from University.
                         </p>
-                        
-                      </div>
+               </div>
+                      </Fade>
+                      </Col>
+                </Row>
+               
+                
+                
+                
+                
+                
+                
+                <Row>
+                <Col>
+                  <Fade
+                    left={isDesktop}
+                    bottom={isMobile}
+                    duration={1000}
+                    delay={500}
+                    distance="30px"
+                  >
+                    <div>
+                      <h3 class="video-wrapper__info-text--important">Vietnam</h3>
                   
                      
                     </div>
                   </Fade>
-                </Col>
-                
-              </Row>
-            
+                  </Col>
+                  </Row>
+                <Row>
+                <Col>
+                  <Fade
+                    right={isDesktop}
+                    bottom={isMobile}
+                    duration={1000}
+                    delay={1000}
+                    distance="30px"
+                  >
+                    <div class="video-wrapper__image">
+                    <p>
+                      <Youtube
+                      videoSrcURL="https://www.youtube.com/embed/MWOWMb_0c7k"
+                      videoTitle="Official Music Video on YouTube"
+                    />
+                    </p>
+                    </div>
+                    
+                      
+                    
+                  </Fade>
+                  </Col>
+                  </Row>
+                  <Row>
+                    <Col>
+                  <Fade
+                    right={isDesktop}
+                    bottom={isMobile}
+                    duration={1000}
+                    delay={1000}
+                    distance="30px"
+                  >
+                  <div class="video-wrapper">
+                        <p>
+                        một chuyến đi vui vẻ
+                        </p>
+                        
+                      </div>
+                      </Fade>
+                      </Col>
+                  </Row>
+                  
+
+
+
+
+
+
+
+
+
+                   
+                <Row>
+                <Col>
+                  <Fade
+                    left={isDesktop}
+                    bottom={isMobile}
+                    duration={1000}
+                    delay={500}
+                    distance="30px"
+                  >
+                    <div>
+                      <h3 class="video-wrapper__info-text--important">Jiu Jitsu Randoris - Fight 2</h3>
+                  
+                     
+                    </div>
+                  </Fade>
+                  </Col>
+                  </Row>
+                <Row>
+                <Col>
+                  <Fade
+                    right={isDesktop}
+                    bottom={isMobile}
+                    duration={1000}
+                    delay={1000}
+                    distance="30px"
+                  >
+                    <div class="video-wrapper__image">
+                    <p>
+                      <Youtube
+                      videoSrcURL="https://www.youtube.com/embed/y1xf8maSE-E"
+                      videoTitle="Official Music Video on YouTube"
+                    />
+                    </p>
+                    </div>
+                    
+                      
+                    
+                  </Fade>
+                  </Col>
+                  </Row>
+                  <Row>
+                    <Col>
+                  <Fade
+                    right={isDesktop}
+                    bottom={isMobile}
+                    duration={1000}
+                    delay={1000}
+                    distance="30px"
+                  >
+                  <div class="video-wrapper">
+                        <p>
+                          Semi-final Randoris ground fighting representing the University of Bath Jiu Jitsu Club
+                        </p>
+                        
+                      </div>
+                      </Fade>
+                      </Col>
+                  </Row>
+
+
+
+
+
+
+                  <Row>
+                <Col>
+                  <Fade
+                    left={isDesktop}
+                    bottom={isMobile}
+                    duration={1000}
+                    delay={500}
+                    distance="30px"
+                  >
+                    <div>
+                      <h3 class="video-wrapper__info-text--important">Jiu Jitsu Randoris - Fight 1</h3>
+                  
+                     
+                    </div>
+                  </Fade>
+                  </Col>
+                  </Row>
+                <Row>
+                <Col>
+                  <Fade
+                    right={isDesktop}
+                    bottom={isMobile}
+                    duration={1000}
+                    delay={1000}
+                    distance="30px"
+                  >
+                    <div class="video-wrapper__image">
+                    <p>
+                      <Youtube
+                      videoSrcURL="https://www.youtube.com/embed/bPLvP_Mzc9g"
+                      videoTitle="Official Music Video on YouTube"
+                    />
+                    </p>
+                    </div>
+                    
+                      
+                    
+                  </Fade>
+                  </Col>
+                  </Row>
+                  <Row>
+                    <Col>
+                  <Fade
+                    right={isDesktop}
+                    bottom={isMobile}
+                    duration={1000}
+                    delay={1000}
+                    distance="30px"
+                  >
+                  <div class="video-wrapper">
+                        <p>
+                          Quarter-final Randoris ground fighting representing the University of Bath Jiu Jitsu Club
+                        </p>
+                        
+                      </div>
+                      </Fade>
+                      </Col>
+                  </Row>
+              
+              
         </div>
       </Container>
   

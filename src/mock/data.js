@@ -80,7 +80,7 @@ export const footerData = {
     {
       id: nanoid(),
       name: 'instagram',
-      url: 'https://www.instagram.com/thicconico/?hl=en',
+      url: 'https://www.instagram.com/nicolas_robinson118/?hl=en',
     },
     {
       id: nanoid(),
@@ -92,6 +92,13 @@ export const footerData = {
       name: 'github',
       url: 'https://github.com/peakneek',
     },
+    {
+      id: nanoid(),
+      name: 'youtube',
+      url: 'https://www.youtube.com/channel/UCxARTOgXzA1oxHvGDe19J8Q',
+    },
+   
+    
   ],
 };
 
