@@ -1,33 +1,31 @@
 import React, { useState, useEffect } from 'react';
 import Hero from './Hero/Hero';
 import About from './About/About';
-import Projects from './Projects/Projects';
+import Videos from './Videos/Videos';
 import Footer from './Footer/Footer';
 
 import { PortfolioProvider } from '../context/context';
 
-import { heroData, aboutData, projectsData, contactData, footerData } from '../mock/data';
+import { heroData, aboutData, videosData, contactData, footerData } from '../mock/data';
 
 function App() {
   const [hero, setHero] = useState({});
   const [about, setAbout] = useState({});
-  const [projects, setProjects] = useState([]);
-
- 
+  const [videos, setVideos] = useState([]);
   const [footer, setFooter] = useState({});
 
   useEffect(() => {
     setHero({ ...heroData });
     setAbout({ ...aboutData });
-    setProjects([...projectsData]);
+    setVideos([...videosData]);
     setFooter({ ...footerData });
   }, []);
 
   return (
-    <PortfolioProvider value={{ hero, about, projects, footer }}>
+    <PortfolioProvider value={{ hero, about, videos, footer }}>
       <Hero />
       <About />
-      <Projects />
+      <Videos />
       <Footer />
     </PortfolioProvider>
   );

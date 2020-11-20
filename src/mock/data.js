@@ -30,11 +30,11 @@ export const aboutData = {
 
 
 
-// PROJECTS DATA
-export const projectsData = [
+// VIDEOS DATA
+export const videosData = [
   {
     id: nanoid(),
-    img: 'project.jpg',
+    img: 'video.jpg',
     title: '',
     info: '',
     info2: '',
@@ -43,7 +43,7 @@ export const projectsData = [
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
+    img: 'video.jpg',
     title: '',
     info: '',
     info2: '',
@@ -52,7 +52,7 @@ export const projectsData = [
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
+    img: 'video.jpg',
     title: '',
     info: '',
     info2: '',

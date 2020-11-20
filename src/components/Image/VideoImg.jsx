@@ -38,4 +38,4 @@ VideoImg.propTypes = {
   alt: PropTypes.string,
 };
 
-export default ProjectImg;
+export default VideoImg;

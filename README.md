@@ -139,10 +139,10 @@ export const aboutData = {
 Put as many projects object you want inside the `array`.
 
 ```javascript
-export const projectsData = [
+export const VideosData = [
   {
     id: nanoid(),
-    img: 'project.jpg',
+    img: 'video.jpg',
     title: '',
     info: '',
     info2: '',
@@ -151,7 +151,7 @@ export const projectsData = [
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
+    img: 'video.jpg',
     title: '',
     info: '',
     info2: '',
